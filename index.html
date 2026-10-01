@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Packaging Machinery | Sonic Industries</title>
+
+  <meta name="description"
+        content="Explore coding, sealing, filling and capping machinery from Sonic Industries. Discuss your packaging requirements with our team.">
+
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container navigation">
+      <a class="brand" href="#home" aria-label="Sonic Industries home">
+        <img
+          src="https://sonicindustries.in/wp-content/uploads/2024/08/LOGO.webp"
+          alt="Sonic Industries"
+        >
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="#products">Products</a>
+        <a href="#contact">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="container hero" aria-labelledby="hero-title">
+      <div class="hero-intro">
+        <div class="hero-ripples" aria-hidden="true">
+          <span class="hero-ripple" style="--i: 0"></span>
+          <span class="hero-ripple" style="--i: 1"></span>
+          <span class="hero-ripple" style="--i: 2"></span>
+          <span class="hero-ripple" style="--i: 3"></span>
+        </div>
+
+        <div class="eyebrow">PACK • FILL • SEAL • LABEL • CODE</div>
+
+        <h1 id="hero-title">
+          Give Your Packaging<br>
+          <span>A Professional Finish.</span>
+        </h1>
+
+        <p>
+          Explore packaging and coding machinery for your business.
+          Find a solution that fits your product, packaging and workflow.
+        </p>
+
+        <div class="actions">
+          <a class="button" href="#contact">
+            Discuss Your Requirements
+          </a>
+
+          <a class="button secondary" href="#products">
+            Explore Machines
+          </a>
+        </div>
+      </div>
+
+      <aside class="machine-slider"
+             aria-label="Packaging machinery demonstrations">
+
+        <!-- Slide 1 -->
+        <div class="machine-slide"
+             data-machine-slide
+             data-name="Bottle Capping">
+
+          <div class="eyebrow">BOTTLE CAPPING</div>
+          <h2>A Professional Finish<br>for Your Bottles.</h2>
+
+          <div class="animation-scene capping-scene" aria-hidden="true">
+            <img class="capping-product"
+                 src="./capping-machine.png" alt="">
+
+            <div class="capping-bottle">
+              <div class="bottle-top"></div>
+              <div class="bottle-neck"></div>
+
+              <div class="bottle-body">
+                <div class="bottle-label">
+                  <strong>SONIC</strong>
+                  <span>PACKAGING</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tightening-ring">↻</div>
+            <div class="capping-platform"></div>
+          </div>
+
+          <p class="slider-caption">
+            Position the bottle. Tighten the cap. Move to the next.
+          </p>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="machine-slide"
+             data-machine-slide
+             data-name="Batch Coding"
+             hidden>
+
+          <div class="eyebrow">BATCH CODING</div>
+          <h2>Give Your Packaging<br>Clear Product Codes.</h2>
+
+          <div class="animation-scene coding-scene" aria-hidden="true">
+            <div class="coding-carton">
+              <div class="carton-brand">SONIC</div>
+
+              <div class="printed-code">
+                <span>BATCH: SI001</span>
+                <span>MFG: DD/MM/YYYY</span>
+                <span>MRP: ₹XXX.XX</span>
+              </div>
+            </div>
+
+            <img class="coding-product"
+                 src="./coding-printer.png" alt="">
+          </div>
+
+          <p class="slider-caption">
+            An illustration of handheld coding on a carton.
+          </p>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="machine-slide"
+             data-machine-slide
+             data-name="Pouch Sealing"
+             hidden>
+
+          <div class="eyebrow">POUCH SEALING</div>
+          <h2>A Professional Seal<br>for Your Packaging.</h2>
+
+          <div class="animation-scene sealer-scene" aria-hidden="true">
+            <div class="sealer-stage">
+              <img class="sealer-product"
+                   src="./band-sealer.png" alt="">
+
+              <div class="sealer-pouch">
+                <div class="pouch-seal"></div>
+                <strong>SONIC</strong>
+                <span>PACKAGING</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="slider-caption">
+            An illustration of a pouch moving through a band sealer.
+          </p>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-arrow"
+                  type="button"
+                  data-machine-prev
+                  aria-label="Previous machine">
+            ←
+          </button>
+
+          <span class="slider-status"
+                data-machine-status
+                aria-live="polite"
+                aria-atomic="true">
+            1 / 3 — Bottle Capping
+          </span>
+
+          <button class="slider-arrow"
+                  type="button"
+                  data-machine-next
+                  aria-label="Next machine">
+            →
+          </button>
+        </div>
+
+        <button class="motion-toggle"
+                type="button"
+                data-motion-toggle
+                aria-pressed="false">
+          Pause animations
+        </button>
+
+        <span class="process-note">
+          Illustrative animations · Sample coding text
+        </span>
+      </aside>
+    </section>
+
+    <section class="products" id="products"
+             aria-labelledby="products-title">
+      <div class="container">
+        <div class="eyebrow">EXPLORE OUR RANGE</div>
+
+        <h2 id="products-title">
+          Solutions for Your Packaging Process
+        </h2>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card-number" aria-hidden="true">01</span>
+            <h3>Batch Coding Printers</h3>
+            <p>
+              Explore printers for MRP, manufacturing dates,
+              expiry dates and batch information.
+            </p>
+            <a href="#contact">Discuss coding requirements →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number" aria-hidden="true">02</span>
+            <h3>Sealing Machines</h3>
+            <p>
+              Explore band sealers, induction sealers and
+              vacuum packaging machines.
+            </p>
+            <a href="#contact">Discuss sealing requirements →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number" aria-hidden="true">03</span>
+            <h3>Filling Machines</h3>
+            <p>
+              Explore equipment for liquids, powders and granules,
+              based on your product and fill range.
+            </p>
+            <a href="#contact">Discuss filling requirements →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number" aria-hidden="true">04</span>
+            <h3>Capping Machines</h3>
+            <p>
+              Explore bottle capping equipment based on
+              your container and cap requirements.
+            </p>
+            <a href="#contact">Discuss capping requirements →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number" aria-hidden="true">05</span>
+            <h3>Labelling Machines</h3>
+            <p>
+              Explore labelling solutions for your containers,
+              label sizes and production workflow.
+            </p>
+            <a href="#contact">Discuss labelling requirements →</a>
+          </article>
+
+          <article class="card">
+            <span class="card-number" aria-hidden="true">06</span>
+            <h3>Packaging Equipment</h3>
+            <p>
+              Discuss your packaging process and identify
+              the equipment needed for each stage.
+            </p>
+            <a href="#contact">Discuss your process →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact" id="contact"
+             aria-labelledby="contact-title">
+
+      <div class="eyebrow">LET’S DISCUSS YOUR REQUIREMENTS</div>
+
+      <h2 id="contact-title">
+        Find Your Next Packaging Solution
+      </h2>
+
+      <p>
+        Share your product, packaging material and required output
+        with Sonic Industries for machine selection and demo enquiries.
+      </p>
+
+      <a class="button" href="https://sonicindustries.in/">
+        Visit Sonic Industries
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    Sonic Industries — Powering Your Production.
+  </footer>
+
+  <script>
+    document.querySelectorAll(".machine-slider").forEach((slider) => {
+      const slides = [...slider.querySelectorAll("[data-machine-slide]")];
+      const status = slider.querySelector("[data-machine-status]");
+      const motionButton = slider.querySelector("[data-motion-toggle]");
+      const reducedMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      );
+
+      let currentSlide = 0;
+      let paused = false;
+
+      function showSlide(index) {
+        currentSlide = (index + slides.length) % slides.length;
+
+        slides.forEach((slide, slideIndex) => {
+          slide.hidden = slideIndex !== currentSlide;
+        });
+
+        status.textContent =
+          `${currentSlide + 1} / ${slides.length} — ` +
+          slides[currentSlide].dataset.name;
+      }
+
+      function updateMotionButton() {
+        motionButton.hidden = reducedMotion.matches;
+        motionButton.textContent = paused
+          ? "Resume animations"
+          : "Pause animations";
+        motionButton.setAttribute("aria-pressed", String(paused));
+      }
+
+      slider.querySelector("[data-machine-prev]")
+        .addEventListener("click", () => showSlide(currentSlide - 1));
+
+      slider.querySelector("[data-machine-next]")
+        .addEventListener("click", () => showSlide(currentSlide + 1));
+
+      motionButton.addEventListener("click", () => {
+        paused = !paused;
+        slider.classList.toggle("animations-paused", paused);
+        updateMotionButton();
+      });
+
+      reducedMotion.addEventListener("change", updateMotionButton);
+
+      showSlide(0);
+      updateMotionButton();
+    });
+  </script>
+</body>
+</html>
